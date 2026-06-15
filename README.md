@@ -1,6 +1,6 @@
 # SmartSpend Expense Tracker
 
-## Overview
+## Overview,
 
 SmartSpend Expense Tracker is an Android mobile application developed using Kotlin and Android Studio. The purpose of the application is to help users monitor and manage their daily spending by recording expenses, setting budget goals, viewing spending trends, and analysing financial habits.
 
