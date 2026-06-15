@@ -140,7 +140,7 @@ The application follows the MVVM (Model-View-ViewModel) architecture pattern.
 
 Download the latest APK:
 
-[INSERT APK / MOBILE APP DOWNLOAD LINK]
+[https://github.com/unablack/SmartSpendTracker-st10455111/releases/tag/v1.0/app-debug.apk]
 
 Install the APK on an Android device and allow installation from unknown sources if required.
 
