@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SmartSpend Primary Colors -->
+    <color name="smartspend_primary">#1565C0</color>
+    <color name="smartspend_primary_dark">#0D47A1</color>
+    <color name="smartspend_accent">#26A69A</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Keep existing reference to avoid breaking code -->
+    <color name="purple_500">#1565C0</color>
+
+</resources>

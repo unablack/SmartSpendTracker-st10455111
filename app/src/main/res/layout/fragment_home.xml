@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- SmartSpend Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SmartSpend Dashboard"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track Smarter. Spend Better."
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="20dp" />
+
+        <!-- Daily Spending -->
+        <TextView
+            android:id="@+id/dailySpendingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today's Spending: R0.00"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <!-- Monthly Status -->
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monthly Status"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="12dp" />
+
+        <!-- Goal Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly Spending Goals"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/minGoalEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Minimum Spending Goal"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/maxGoalEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Maximum Spending Goal"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/saveGoalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Goals"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/goalPreviewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No spending goals set."
+            android:paddingTop="10dp" />
+
+        <!-- Navigation Buttons -->
+
+        <Button
+            android:id="@+id/btnAddExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Expense"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnViewSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expense Summary"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnViewBudgetGraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spending Analytics"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSearchExpenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Expenses"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">SmartSpend</string>
+
+    <string name="welcome_title">Welcome to SmartSpend</string>
+    <string name="welcome_subtitle">Track Smarter. Spend Better.</string>
+
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="expenses">Expenses</string>
+    <string name="add_expense">Add Expense</string>
+
+    <string name="budget_goals">Budget Goals</string>
+    <string name="reports">Reports</string>
+    <string name="analytics">Analytics</string>
+
+    <string name="safe_to_spend">Safe To Spend</string>
+    <string name="monthly_goal">Monthly Goal</string>
+
+    <string name="rewards">Rewards</string>
+    <string name="badges">Badges</string>
+
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+
+</resources>

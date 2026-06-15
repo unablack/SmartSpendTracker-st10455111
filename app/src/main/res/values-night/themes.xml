@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.BudgetTrackerApp"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/smartspend_primary</item>
+        <item name="colorPrimaryContainer">@color/smartspend_primary_dark</item>
+        <item name="colorSecondary">@color/smartspend_accent</item>
+
+    </style>
+
+</resources>

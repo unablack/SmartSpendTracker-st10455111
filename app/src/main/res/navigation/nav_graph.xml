@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="vcmsa.projects.budgettrackerapp.ui.LoginFragment"
+        android:label="SmartSpend Login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="vcmsa.projects.budgettrackerapp.ui.HomeFragment"
+        android:label="SmartSpend Dashboard">
+
+        <action
+            android:id="@+id/action_homeFragment_to_addExpenseFragment"
+            app:destination="@id/addExpenseFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_budgetGraphFragment"
+            app:destination="@id/budgetGraphFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="vcmsa.projects.budgettrackerapp.ui.AddExpenseFragment"
+        android:label="Add Expense">
+
+        <action
+            android:id="@+id/action_addExpenseFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="vcmsa.projects.budgettrackerapp.ui.SummaryFragment"
+        android:label="Expense Summary">
+
+        <action
+            android:id="@+id/action_summaryFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/budgetGraphFragment"
+        android:name="vcmsa.projects.budgettrackerapp.ui.BudgetGraphFragment"
+        android:label="Spending Analytics"
+        tools:layout="@layout/fragment_budget_graph" />
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="vcmsa.projects.budgettrackerapp.ui.SearchFragment"
+        android:label="Search Expenses" />
+
+    <action
+        android:id="@+id/action_homeFragment_to_searchFragment"
+        app:destination="@id/searchFragment" />
+
+</navigation>
