@@ -158,7 +158,7 @@ Install the APK on an Android device and allow installation from unknown sources
 
 Project Source Code:
 
-[INSERT GITHUB REPOSITORY LINK]
+[https://github.com/unablack/SmartSpendTracker-st10455111]
 
 ---
 
@@ -166,7 +166,7 @@ Project Source Code:
 
 YouTube Demonstration:
 
-[INSERT YOUTUBE VIDEO LINK]
+[https://youtu.be/sv6993eAGdM?si=gPHo1VBLftacc0zp]
 
 The video demonstrates:
 
